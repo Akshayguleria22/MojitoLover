@@ -25,6 +25,7 @@ body {
     overflow-x: hidden;
     padding: 0%;
     margin: 0%;
+}
 
 @utility flex-center {
     @apply flex justify-center items-center;
