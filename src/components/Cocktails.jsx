@@ -2,6 +2,9 @@ import React from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { cocktailLists, mockTailLists } from '../../constants/index.js'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger)
+
 const Cocktails = () => {
     useGSAP(() => {
         const paralax = gsap.timeline({
