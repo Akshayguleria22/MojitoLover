@@ -46,20 +46,20 @@ const Hero = () => {
             .to('.right-leaf', { y: 200 }, 0)
             .to('.left-leaf', { y: -200 }, 0)
 
-        const startValue = isMobile ? 'top 50%' : 'center 60%'
+        const startValue = isMobile ? 'top 50%' : 'center 51%'
         const endValue = isMobile ? '120% top' : 'bottom top'
 
         gsap.fromTo(videoRef.current,
             {
                 opacity: 0.5,
                 y: 90,
-                scale: 1.1,
+                scale: 1,
             },
             {
                 opacity: 1,
                 y: 60,
-                scale: 1,
-                duration: 1.5,
+                scale: 0.8,
+                duration: 1.2,
                 ease: 'power4.out',
                 scrollTrigger: {
                     trigger: 'video',
