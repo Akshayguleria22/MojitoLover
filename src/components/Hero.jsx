@@ -5,7 +5,9 @@ import SplitText from 'gsap/SplitText'
 import { useGSAP } from '@gsap/react'
 import { useMediaQuery } from 'react-responsive'
 
-gsap.registerPlugin(ScrollTrigger, SplitText)
+gsap.registerPlugin(SplitText)
+gsap.registerPlugin(ScrollTrigger)
+
 
 const Hero = () => {
     const videoRef = useRef(null)
