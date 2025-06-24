@@ -21,11 +21,10 @@ body {
     background-color: black;
     color: white;
     scroll-behavior: smooth;
+    overflow-y: auto;
     overflow-x: hidden;
-    zoom: 1;
-    margin: 0;
-    padding: 0;
-}
+    padding: 0%;
+    margin: 0%;
 
 @utility flex-center {
     @apply flex justify-center items-center;

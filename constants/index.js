@@ -8,7 +8,7 @@ const navLinks = [
         title: "About Us",
     },
     {
-        id: "work",
+        id: "art",
         title: "The Art",
     },
     {
@@ -120,17 +120,17 @@ const socials = [
     {
         name: "Instagram",
         icon: "/images/insta.png",
-        url: "#",
+        url: "https://www.instagram.com/akshayguleria05/",
     },
     {
         name: "X (Twitter)",
         icon: "/images/x.png",
-        url: "#",
+        url: "https://x.com/AkshayGuleria07",
     },
     {
-        name: "Facebook",
-        icon: "/images/fb.png",
-        url: "#",
+        name: "LinkedIn",
+        icon: "/images/l1.svg",
+        url: "https://www.linkedin.com/in/akshay-guleria-64885a28a/",
     },
 ];
 
