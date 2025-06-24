@@ -22,6 +22,9 @@ body {
     color: white;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    zoom: 1;
+    margin: 0;
+    padding: 0;
 }
 
 @utility flex-center {
@@ -155,7 +158,7 @@ body {
             }
 
             .loved {
-                @apply space-y-8 w-full md:w-fit pb-20;
+                @apply space-y-8 w-full md:w-fit pb-20 md:pb-0;
             }
 
             h2 {
@@ -163,7 +166,7 @@ body {
             }
 
             ul {
-                @apply space-y-6;
+                @apply space-y-8;
 
                 li {
                     @apply flex justify-between items-start;
@@ -257,7 +260,7 @@ body {
 
         .masked-container {
             h2 {
-                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
+                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-10;
             }
 
             div {
