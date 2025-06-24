@@ -155,7 +155,7 @@ body {
             }
 
             .loved {
-                @apply space-y-8 w-full md:w-fit pb-20 md:pb-0;
+                @apply space-y-8 w-full md:w-fit pb-20;
             }
 
             h2 {
@@ -163,7 +163,7 @@ body {
             }
 
             ul {
-                @apply space-y-8;
+                @apply space-y-6;
 
                 li {
                     @apply flex justify-between items-start;
